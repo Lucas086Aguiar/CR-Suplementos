@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500; 1.700;1.900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    font-family: "Roboto", sans-serif;
+}
+
+/* navbar com h1 pra logo e menu */
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo {
+    flex: 20%;
+    margin-left: 10%;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.logo h1 {
+    font-family: "Anton", sans-serif;
+    color: #180f7a;
+    font-size: 24px;
+}
+
+.menu {
+    flex: 70%;
+    /* border: 1px solid black; */
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a {
+    color: #180f7a;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+.menu a:hover {
+    color: #ff2978;
+    border-top: 4px solid #180f4a;
+}
+
+#botao {
+    background-color: #180f4a;
+    padding: 15px 20px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5px;
+}
+
+#botao:hover {
+    border: none;
+    background-color: #ff2978;
+}
+
+/* header */
+
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+.headline{
+    margin-left: 10%;
+    flex: 40%;
+    border: 1px solid #180f4a;
+}
+.headline h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: #180f4a;
+    padding: 0%;
+    margin: 0%;
+}
+.img-headline{
+    margin-right: 10%;
+    flex: 40%;
+    /* border: 1px solid #ff2978; */
+    text-align: center;
+    
+}
