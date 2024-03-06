@@ -1,12 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500; 1.700;1.900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 * {
     box-sizing: border-box;
-    font-family:  "Roboto", sans-serif;;
 }
 
 body {
     margin: 0%;
-    
+    font-family: "Madimi One", sans-serif;
+    background-color: black;
+
 }
 
 /* navbar com h1 pra logo e menu */
@@ -15,7 +18,7 @@ body {
     display: flex;
     flex-flow: row wrap;
     height: 100px;
-    background-color:  black;
+    background-image:linear-gradient(180deg,red,black);
     justify-content: center;
     align-items: center;
 
@@ -28,10 +31,12 @@ body {
     text-align: left;
 }
 
-.logo h1{
-    color: red;
+.logo h1 {
+    color:#fda15d;
     font-size: 24px;
-    font-family: "Lagosta", sans-serif; 
+    font-family: "Anton", sans-serif;
+    font-size: 35pt;
+
 }
 
 .menu {
@@ -70,66 +75,76 @@ body {
 
 /* header */
 
-.header{
+.header {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     background-color: black;
+    height: 600px;
 }
-.headline{
+
+.headline {
     margin-left: 10%;
     flex: 40%;
     /* border: 1px solid #180f4a; */
 }
-.headline h2{
+
+.headline h2 {
     font-weight: 900;
     font-size: 20px;
     color: white;
     padding: 0%;
     margin: 0%;
+    margin-top: 10px;
 }
-.headline p{
-color: white;
-text-align: left;
+
+.headline p {
+    color: white;
+    text-align: left;
 }
-.contact-btn{
+
+.contact-btn {
     display: inline-block;
     background-color: #fda15d;
-    padding:20px;
+    padding: 20px;
     color: white;
     text-transform: uppercase;
     border-radius: 5px;
     text-decoration: none;
-    
+
 }
-.contact-btn:hover{
+
+.contact-btn:hover {
     border: none;
     background-color: #048efd;
     color: #fda15d;
 }
-.img-headline{
+
+.img-headline {
     display: inline-block;
     margin-right: 10%;
     flex: 30%;
     /* border: 1px solid #ff2978; */
-    text-align: right;  
+    text-align: right;
+    
 }
+
 /* section */
 
-section{
+section {
     display: inline-block;
     margin-top: 80px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-left: 5%;
     margin-right: 5%;
-    text-align: center;
     padding: 5%;
+    text-align: center;
     width: 90%;
 
 }
 
-section h2{
+section h2 {
     width: 100%;
     font-size: 50px;
     margin: 0;
@@ -138,17 +153,25 @@ section h2{
     color: #fda15d;
 }
 
-.servicos{
+.servicos {
     display: inline-block;
     margin-top: 5%;
+    color: white;
 
 }
 
-.card{
+.card {
     display: inline-block;
     width: 30%;
     padding: 20px;
     margin: 1%;
     border: 1px solid red;
+    cursor: pointer;
+}
 
+footer{
+    margin-top: 100px;
+    height: 300px;
+    background-image:linear-gradient(180deg,black,red);
+    color: white;
 }
